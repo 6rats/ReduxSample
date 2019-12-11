@@ -1,0 +1,7 @@
+Podfile.lock
+Pods/
+GistEditor.xcworkspace/
+GistEditor.xcodeproj/project.xcworkspace
+GistEditor.xcodeproj/xcuserdata
+.DS_Store
+Carthage/

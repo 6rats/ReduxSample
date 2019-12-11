@@ -15,6 +15,8 @@
 		FB2C40AE23A068A500556C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2C40AC23A068A500556C98 /* LaunchScreen.storyboard */; };
 		FB2C40B923A068A500556C98 /* GistEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40B823A068A500556C98 /* GistEditorTests.swift */; };
 		FB2C40C423A068A500556C98 /* GistEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40C323A068A500556C98 /* GistEditorUITests.swift */; };
+		FB2C40D323A06AEF00556C98 /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40D223A06AEF00556C98 /* Gist.swift */; };
+		FB2C40D623A06C0C00556C98 /* GistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40D523A06C0C00556C98 /* GistView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FB2C40BF23A068A500556C98 /* GistEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2C40C323A068A500556C98 /* GistEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistEditorUITests.swift; sourceTree = "<group>"; };
 		FB2C40C523A068A500556C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2C40D223A06AEF00556C98 /* Gist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
+		FB2C40D523A06C0C00556C98 /* GistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		FB2C40A023A068A400556C98 /* GistEditor */ = {
 			isa = PBXGroup;
 			children = (
+				FB2C40D423A06BFE00556C98 /* Views */,
+				FB2C40D123A06A0D00556C98 /* Entity */,
 				FB2C40A123A068A400556C98 /* AppDelegate.swift */,
 				FB2C40A323A068A400556C98 /* SceneDelegate.swift */,
 				FB2C40A523A068A400556C98 /* ContentView.swift */,
@@ -134,6 +140,22 @@
 				FB2C40C523A068A500556C98 /* Info.plist */,
 			);
 			path = GistEditorUITests;
+			sourceTree = "<group>";
+		};
+		FB2C40D123A06A0D00556C98 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FB2C40D223A06AEF00556C98 /* Gist.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FB2C40D423A06BFE00556C98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB2C40D523A06C0C00556C98 /* GistView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2C40D323A06AEF00556C98 /* Gist.swift in Sources */,
 				FB2C40A223A068A400556C98 /* AppDelegate.swift in Sources */,
 				FB2C40A423A068A400556C98 /* SceneDelegate.swift in Sources */,
 				FB2C40A623A068A400556C98 /* ContentView.swift in Sources */,
+				FB2C40D623A06C0C00556C98 /* GistView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
