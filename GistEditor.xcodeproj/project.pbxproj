@@ -17,6 +17,7 @@
 		FB2C40C423A068A500556C98 /* GistEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40C323A068A500556C98 /* GistEditorUITests.swift */; };
 		FB2C40D323A06AEF00556C98 /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40D223A06AEF00556C98 /* Gist.swift */; };
 		FB2C40D623A06C0C00556C98 /* GistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40D523A06C0C00556C98 /* GistView.swift */; };
+		FB2E5B8E23A1BC7D0047FA70 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2E5B8D23A1BC7D0047FA70 /* StatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FB2C40C523A068A500556C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2C40D223A06AEF00556C98 /* Gist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
 		FB2C40D523A06C0C00556C98 /* GistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistView.swift; sourceTree = "<group>"; };
+		FB2E5B8D23A1BC7D0047FA70 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		FB2E5B9023A1BFBF0047FA70 /* FontAwesome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome.framework; path = Carthage/Build/iOS/FontAwesome.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 				FB2C40B723A068A500556C98 /* GistEditorTests */,
 				FB2C40C223A068A500556C98 /* GistEditorUITests */,
 				FB2C409F23A068A400556C98 /* Products */,
+				FB2E5B8F23A1BFBF0047FA70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,8 +158,17 @@
 			isa = PBXGroup;
 			children = (
 				FB2C40D523A06C0C00556C98 /* GistView.swift */,
+				FB2E5B8D23A1BC7D0047FA70 /* StatsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FB2E5B8F23A1BFBF0047FA70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2E5B9023A1BFBF0047FA70 /* FontAwesome.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +181,7 @@
 				FB2C409A23A068A400556C98 /* Sources */,
 				FB2C409B23A068A400556C98 /* Frameworks */,
 				FB2C409C23A068A400556C98 /* Resources */,
+				FB2E5B9423A1BFED0047FA70 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -283,6 +297,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FB2E5B9423A1BFED0047FA70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB2C409A23A068A400556C98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -290,6 +324,7 @@
 			files = (
 				FB2C40D323A06AEF00556C98 /* Gist.swift in Sources */,
 				FB2C40A223A068A400556C98 /* AppDelegate.swift in Sources */,
+				FB2E5B8E23A1BC7D0047FA70 /* StatsView.swift in Sources */,
 				FB2C40A423A068A400556C98 /* SceneDelegate.swift in Sources */,
 				FB2C40A623A068A400556C98 /* ContentView.swift in Sources */,
 				FB2C40D623A06C0C00556C98 /* GistView.swift in Sources */,
@@ -461,6 +496,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GistEditor/Preview Content\"";
 				DEVELOPMENT_TEAM = T6VZQZLM25;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GistEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,6 +520,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GistEditor/Preview Content\"";
 				DEVELOPMENT_TEAM = T6VZQZLM25;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GistEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
