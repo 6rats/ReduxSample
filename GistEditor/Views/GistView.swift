@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GistView: View {
     
-    let imageSize:CGFloat = 50
+    let imageSize:CGFloat = 60
     
     var body: some View {
         
@@ -20,7 +20,7 @@ struct GistView: View {
                 .frame(width:imageSize,
                        height:imageSize)
             
-            VStack(alignment: .leading, spacing: 8) {
+            VStack(alignment: .leading, spacing: 4) {
                 
                 HStack(alignment: .center,
                        spacing: 8) {
@@ -32,7 +32,7 @@ struct GistView: View {
                             .cornerRadius(2)
                 }
                 
-                Text("Created at 5days ago")
+                Text("Created at 5 days ago")
             }
         }
     }

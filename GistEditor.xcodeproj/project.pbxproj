@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		FB2C40D323A06AEF00556C98 /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40D223A06AEF00556C98 /* Gist.swift */; };
 		FB2C40D623A06C0C00556C98 /* GistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40D523A06C0C00556C98 /* GistView.swift */; };
 		FB2E5B8E23A1BC7D0047FA70 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2E5B8D23A1BC7D0047FA70 /* StatsView.swift */; };
+		FBA0E8EB24A2D7DD00AE8A91 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FBA0E8EA24A2D7DD00AE8A91 /* ReSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA0E8EB24A2D7DD00AE8A91 /* ReSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +190,9 @@
 			dependencies = (
 			);
 			name = GistEditor;
+			packageProductDependencies = (
+				FBA0E8EA24A2D7DD00AE8A91 /* ReSwift */,
+			);
 			productName = GistEditor;
 			productReference = FB2C409E23A068A400556C98 /* GistEditor.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +264,9 @@
 				Base,
 			);
 			mainGroup = FB2C409523A068A400556C98;
+			packageReferences = (
+				FBA0E8E924A2D7DD00AE8A91 /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
 			productRefGroup = FB2C409F23A068A400556C98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -660,6 +668,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBA0E8E924A2D7DD00AE8A91 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBA0E8EA24A2D7DD00AE8A91 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBA0E8E924A2D7DD00AE8A91 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB2C409623A068A400556C98 /* Project object */;
 }
