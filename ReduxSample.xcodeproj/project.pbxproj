@@ -13,8 +13,8 @@
 		FB2C40A823A068A500556C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2C40A723A068A500556C98 /* Assets.xcassets */; };
 		FB2C40AB23A068A500556C98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2C40AA23A068A500556C98 /* Preview Assets.xcassets */; };
 		FB2C40AE23A068A500556C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2C40AC23A068A500556C98 /* LaunchScreen.storyboard */; };
-		FB2C40B923A068A500556C98 /* GistEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40B823A068A500556C98 /* GistEditorTests.swift */; };
-		FB2C40C423A068A500556C98 /* GistEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40C323A068A500556C98 /* GistEditorUITests.swift */; };
+		FB2C40B923A068A500556C98 /* ReduxSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40B823A068A500556C98 /* ReduxSampleTests.swift */; };
+		FB2C40C423A068A500556C98 /* ReduxSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40C323A068A500556C98 /* ReduxSampleUITests.swift */; };
 		FB2C40D323A06AEF00556C98 /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40D223A06AEF00556C98 /* Gist.swift */; };
 		FB2C40D623A06C0C00556C98 /* GistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2C40D523A06C0C00556C98 /* GistView.swift */; };
 		FB2E5B8E23A1BC7D0047FA70 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2E5B8D23A1BC7D0047FA70 /* StatsView.swift */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FB2C409E23A068A400556C98 /* GistEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GistEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2C409E23A068A400556C98 /* ReduxSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2C40A123A068A400556C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB2C40A323A068A400556C98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FB2C40A523A068A400556C98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,11 +47,11 @@
 		FB2C40AA23A068A500556C98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB2C40AD23A068A500556C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2C40AF23A068A500556C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB2C40B423A068A500556C98 /* GistEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2C40B823A068A500556C98 /* GistEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistEditorTests.swift; sourceTree = "<group>"; };
+		FB2C40B423A068A500556C98 /* ReduxSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReduxSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2C40B823A068A500556C98 /* ReduxSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxSampleTests.swift; sourceTree = "<group>"; };
 		FB2C40BA23A068A500556C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB2C40BF23A068A500556C98 /* GistEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB2C40C323A068A500556C98 /* GistEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistEditorUITests.swift; sourceTree = "<group>"; };
+		FB2C40BF23A068A500556C98 /* ReduxSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReduxSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2C40C323A068A500556C98 /* ReduxSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxSampleUITests.swift; sourceTree = "<group>"; };
 		FB2C40C523A068A500556C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2C40D223A06AEF00556C98 /* Gist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
 		FB2C40D523A06C0C00556C98 /* GistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistView.swift; sourceTree = "<group>"; };
@@ -88,9 +88,9 @@
 		FB2C409523A068A400556C98 = {
 			isa = PBXGroup;
 			children = (
-				FB2C40A023A068A400556C98 /* GistEditor */,
-				FB2C40B723A068A500556C98 /* GistEditorTests */,
-				FB2C40C223A068A500556C98 /* GistEditorUITests */,
+				FB2C40A023A068A400556C98 /* ReduxSample */,
+				FB2C40B723A068A500556C98 /* ReduxSampleTests */,
+				FB2C40C223A068A500556C98 /* ReduxSampleUITests */,
 				FB2C409F23A068A400556C98 /* Products */,
 				FB2E5B8F23A1BFBF0047FA70 /* Frameworks */,
 			);
@@ -99,14 +99,14 @@
 		FB2C409F23A068A400556C98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB2C409E23A068A400556C98 /* GistEditor.app */,
-				FB2C40B423A068A500556C98 /* GistEditorTests.xctest */,
-				FB2C40BF23A068A500556C98 /* GistEditorUITests.xctest */,
+				FB2C409E23A068A400556C98 /* ReduxSample.app */,
+				FB2C40B423A068A500556C98 /* ReduxSampleTests.xctest */,
+				FB2C40BF23A068A500556C98 /* ReduxSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB2C40A023A068A400556C98 /* GistEditor */ = {
+		FB2C40A023A068A400556C98 /* ReduxSample */ = {
 			isa = PBXGroup;
 			children = (
 				FB2C40D423A06BFE00556C98 /* Views */,
@@ -119,7 +119,7 @@
 				FB2C40AF23A068A500556C98 /* Info.plist */,
 				FB2C40A923A068A500556C98 /* Preview Content */,
 			);
-			path = GistEditor;
+			path = ReduxSample;
 			sourceTree = "<group>";
 		};
 		FB2C40A923A068A500556C98 /* Preview Content */ = {
@@ -130,22 +130,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FB2C40B723A068A500556C98 /* GistEditorTests */ = {
+		FB2C40B723A068A500556C98 /* ReduxSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				FB2C40B823A068A500556C98 /* GistEditorTests.swift */,
+				FB2C40B823A068A500556C98 /* ReduxSampleTests.swift */,
 				FB2C40BA23A068A500556C98 /* Info.plist */,
 			);
-			path = GistEditorTests;
+			path = ReduxSampleTests;
 			sourceTree = "<group>";
 		};
-		FB2C40C223A068A500556C98 /* GistEditorUITests */ = {
+		FB2C40C223A068A500556C98 /* ReduxSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FB2C40C323A068A500556C98 /* GistEditorUITests.swift */,
+				FB2C40C323A068A500556C98 /* ReduxSampleUITests.swift */,
 				FB2C40C523A068A500556C98 /* Info.plist */,
 			);
-			path = GistEditorUITests;
+			path = ReduxSampleUITests;
 			sourceTree = "<group>";
 		};
 		FB2C40D123A06A0D00556C98 /* Entity */ = {
@@ -176,30 +176,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB2C409D23A068A400556C98 /* GistEditor */ = {
+		FB2C409D23A068A400556C98 /* ReduxSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB2C40C823A068A500556C98 /* Build configuration list for PBXNativeTarget "GistEditor" */;
+			buildConfigurationList = FB2C40C823A068A500556C98 /* Build configuration list for PBXNativeTarget "ReduxSample" */;
 			buildPhases = (
 				FB2C409A23A068A400556C98 /* Sources */,
 				FB2C409B23A068A400556C98 /* Frameworks */,
 				FB2C409C23A068A400556C98 /* Resources */,
-				FB2E5B9423A1BFED0047FA70 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GistEditor;
+			name = ReduxSample;
 			packageProductDependencies = (
 				FBA0E8EA24A2D7DD00AE8A91 /* ReSwift */,
 			);
 			productName = GistEditor;
-			productReference = FB2C409E23A068A400556C98 /* GistEditor.app */;
+			productReference = FB2C409E23A068A400556C98 /* ReduxSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FB2C40B323A068A500556C98 /* GistEditorTests */ = {
+		FB2C40B323A068A500556C98 /* ReduxSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB2C40CB23A068A500556C98 /* Build configuration list for PBXNativeTarget "GistEditorTests" */;
+			buildConfigurationList = FB2C40CB23A068A500556C98 /* Build configuration list for PBXNativeTarget "ReduxSampleTests" */;
 			buildPhases = (
 				FB2C40B023A068A500556C98 /* Sources */,
 				FB2C40B123A068A500556C98 /* Frameworks */,
@@ -210,14 +209,14 @@
 			dependencies = (
 				FB2C40B623A068A500556C98 /* PBXTargetDependency */,
 			);
-			name = GistEditorTests;
+			name = ReduxSampleTests;
 			productName = GistEditorTests;
-			productReference = FB2C40B423A068A500556C98 /* GistEditorTests.xctest */;
+			productReference = FB2C40B423A068A500556C98 /* ReduxSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FB2C40BE23A068A500556C98 /* GistEditorUITests */ = {
+		FB2C40BE23A068A500556C98 /* ReduxSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB2C40CE23A068A500556C98 /* Build configuration list for PBXNativeTarget "GistEditorUITests" */;
+			buildConfigurationList = FB2C40CE23A068A500556C98 /* Build configuration list for PBXNativeTarget "ReduxSampleUITests" */;
 			buildPhases = (
 				FB2C40BB23A068A500556C98 /* Sources */,
 				FB2C40BC23A068A500556C98 /* Frameworks */,
@@ -228,9 +227,9 @@
 			dependencies = (
 				FB2C40C123A068A500556C98 /* PBXTargetDependency */,
 			);
-			name = GistEditorUITests;
+			name = ReduxSampleUITests;
 			productName = GistEditorUITests;
-			productReference = FB2C40BF23A068A500556C98 /* GistEditorUITests.xctest */;
+			productReference = FB2C40BF23A068A500556C98 /* ReduxSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -255,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FB2C409923A068A400556C98 /* Build configuration list for PBXProject "GistEditor" */;
+			buildConfigurationList = FB2C409923A068A400556C98 /* Build configuration list for PBXProject "ReduxSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -271,9 +270,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB2C409D23A068A400556C98 /* GistEditor */,
-				FB2C40B323A068A500556C98 /* GistEditorTests */,
-				FB2C40BE23A068A500556C98 /* GistEditorUITests */,
+				FB2C409D23A068A400556C98 /* ReduxSample */,
+				FB2C40B323A068A500556C98 /* ReduxSampleTests */,
+				FB2C40BE23A068A500556C98 /* ReduxSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,26 +304,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		FB2E5B9423A1BFED0047FA70 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		FB2C409A23A068A400556C98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -343,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2C40B923A068A500556C98 /* GistEditorTests.swift in Sources */,
+				FB2C40B923A068A500556C98 /* ReduxSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2C40C423A068A500556C98 /* GistEditorUITests.swift in Sources */,
+				FB2C40C423A068A500556C98 /* ReduxSampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,12 +339,12 @@
 /* Begin PBXTargetDependency section */
 		FB2C40B623A068A500556C98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FB2C409D23A068A400556C98 /* GistEditor */;
+			target = FB2C409D23A068A400556C98 /* ReduxSample */;
 			targetProxy = FB2C40B523A068A500556C98 /* PBXContainerItemProxy */;
 		};
 		FB2C40C123A068A500556C98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FB2C409D23A068A400556C98 /* GistEditor */;
+			target = FB2C409D23A068A400556C98 /* ReduxSample */;
 			targetProxy = FB2C40C023A068A500556C98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -501,19 +480,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"GistEditor/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = T6VZQZLM25;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = GistEditor/Info.plist;
+				INFOPLIST_FILE = ReduxSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.takmurata.GistEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.takmurata.ReduxSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,19 +504,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"GistEditor/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = T6VZQZLM25;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = GistEditor/Info.plist;
+				INFOPLIST_FILE = ReduxSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.takmurata.GistEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.takmurata.ReduxSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -562,7 +541,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GistEditor.app/GistEditor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReduxSample.app/ReduxSample";
 			};
 			name = Debug;
 		};
@@ -584,7 +563,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GistEditor.app/GistEditor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReduxSample.app/ReduxSample";
 			};
 			name = Release;
 		};
@@ -631,7 +610,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB2C409923A068A400556C98 /* Build configuration list for PBXProject "GistEditor" */ = {
+		FB2C409923A068A400556C98 /* Build configuration list for PBXProject "ReduxSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB2C40C623A068A500556C98 /* Debug */,
@@ -640,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB2C40C823A068A500556C98 /* Build configuration list for PBXNativeTarget "GistEditor" */ = {
+		FB2C40C823A068A500556C98 /* Build configuration list for PBXNativeTarget "ReduxSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB2C40C923A068A500556C98 /* Debug */,
@@ -649,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB2C40CB23A068A500556C98 /* Build configuration list for PBXNativeTarget "GistEditorTests" */ = {
+		FB2C40CB23A068A500556C98 /* Build configuration list for PBXNativeTarget "ReduxSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB2C40CC23A068A500556C98 /* Debug */,
@@ -658,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB2C40CE23A068A500556C98 /* Build configuration list for PBXNativeTarget "GistEditorUITests" */ = {
+		FB2C40CE23A068A500556C98 /* Build configuration list for PBXNativeTarget "ReduxSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB2C40CF23A068A500556C98 /* Debug */,
